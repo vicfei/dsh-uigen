@@ -1,0 +1,11 @@
+{
+  "name": "dsh-uigen",
+  "version": "0.0.1",
+  "description": "Generate-and-render inline UI components for DeepSeek Harness — local-LLM component generation against a whitelisted dsh-ui catalog, schema-validated fail-closed, rendered in replies via dsh-genui",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicfei/dsh-uigen.git"
+  },
+  "keywords": ["dsh", "deepseek-harness", "ui", "components", "genui", "frontend"]
+}
