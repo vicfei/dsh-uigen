@@ -1,6 +1,7 @@
 # dsh-uigen bundle patch — mounts the ui_compose pre-flight lint tool and the
 # workflow skill. Advisory gate: a broken gate never blocks answers.
-- id: dsh-uigen
-  name: 'dsh-uigen'
-  config:
-    strictness: errors-only
+- insert:
+    - id: dsh-uigen
+      name: 'dsh-uigen'
+      config:
+        strictness: errors-only
