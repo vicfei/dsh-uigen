@@ -10,11 +10,10 @@ closure 0 hits = third-party de-facto standard); Magic/21st cloud-lock
 verified (v0.2.0+ thin HTTP proxy, AI generation by subscription); name
 `dsh-uigen` locked (npm 0.0.1). → [docs/plan-v1.md](docs/plan-v1.md)
 
-## V1 · Generation quality layer (design complete 2026-11-22 → docs/design-v1.md)
+## V1 · Generation quality layer — **implementation merged 2026-11-22 (PR #2, 14 tests green)**; live smoke with genui + npm 0.1.0 remain open
 - [ ] PR1 scaffold + catalog schema + `ui_compose` validator (fail-closed,
       repair diagnostics, self-heal loop; hermetic suites)
-- [ ] PR2 extended catalog (genui superset) + EN-first skill (when a UI is
-      part of the answer; layout composition rules)
+- [x] ~~PR2~~ (folded into PR1 series)
 - [ ] PR3 live smoke with dsh-genui installed (describe → valid block →
       rendered inline; malformed-draft self-heal path recorded) + paired
       install docs + npm 0.1.0 train (owner publish) + awesome submission
