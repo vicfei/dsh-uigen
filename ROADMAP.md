@@ -11,9 +11,10 @@ verified (v0.2.0+ thin HTTP proxy, AI generation by subscription); name
 `dsh-uigen` locked (npm 0.0.1). → [docs/plan-v1.md](docs/plan-v1.md)
 
 ## V1 · Generation quality layer — **implementation merged 2026-11-22 (PR #2, 14 tests green)**; live smoke with genui + npm 0.1.0 remain open
-- [ ] PR1 scaffold + catalog schema + `ui_compose` validator (fail-closed,
-      repair diagnostics, self-heal loop; hermetic suites)
-- [x] ~~PR2~~ (folded into PR1 series)
+- [x] PR1 catalog (59 types pinned to genui 0.16.0) + R1/R2/R3 lint engine +
+      `ui_compose` tool (fail-closed, repair diagnostics) + EN-first skill —
+      merged (14 hermetic suites green)
+- [x] ~~PR2 R3 discipline + skill~~ (folded into PR1 series)
 - [ ] PR3 live smoke with dsh-genui installed (describe → valid block →
       rendered inline; malformed-draft self-heal path recorded) + paired
       install docs + npm 0.1.0 train (owner publish) + awesome submission
