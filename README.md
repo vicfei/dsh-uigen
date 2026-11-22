@@ -15,6 +15,8 @@ with the generation quality neither has. Full plan:
 
 ## Status
 
-S1 survey complete; V1 in planning — see [ROADMAP.md](ROADMAP.md).
+S1 survey complete
+> **Agent self-install** — paste this into your DeepSeek Harness agent:
+> `Install dsh-uigen from https://github.com/vicfei/dsh-uigen into this profile: run \`dsh plugin --profile <name> add dsh-uigen\` AND add "dsh-uigen" to the profile's dsh.profile.bundles list, then verify the ui_compose tool answers.`; V1 in planning — see [ROADMAP.md](ROADMAP.md).
 
 Not affiliated with DeepSeek, 21st.dev, or dsh-genui. MIT.
