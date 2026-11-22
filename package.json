@@ -18,7 +18,8 @@
   "type": "module",
   "main": "lib/compose.js",
   "exports": {
-    ".": "./lib/compose.js"
+    ".": "./lib/compose.js",
+    "./cordis.patch.yml": "./cordis.patch.yml"
   },
   "engines": {
     "node": ">=20"
@@ -32,11 +33,12 @@
     "docs",
     "LICENSE",
     "README.md",
-    "ROADMAP.md"
+    "ROADMAP.md",
+    "cordis.patch.yml"
   ],
   "peerDependencies": {
-    "@deepseek-ai/cordis": "~4.0.5",
-    "@deepseek-ai/dsh-tools": "0.2.1-rc.5"
+    "@deepseek-ai/cordis": ">=0.2.1-rc.5 <0.3.0",
+    "@deepseek-ai/dsh-tools": ">=0.2.1-rc.5 <0.3.0"
   },
   "peerDependenciesMeta": {
     "@deepseek-ai/cordis": {
@@ -44,6 +46,11 @@
     },
     "@deepseek-ai/dsh-tools": {
       "optional": true
+    }
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
     }
   }
 }
